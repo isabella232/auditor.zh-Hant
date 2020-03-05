@@ -1,41 +1,41 @@
 ---
-description: Experience Platform Auditor的技術檔案。
-seo-description: Adobe Experience Platform Auditor的技術檔案。
-seo-title: 'Adobe Experience Platform Auditor的技術檔案 '
-title: Adobe Experience Platform Auditor概觀——技術檔案
+description: Experience Platform Auditor 的技術文件。
+seo-description: Adobe Experience Platform Auditor 的技術文件。
+seo-title: 'Adobe Experience Platform Auditor 的技術文件 '
+title: Adobe Experience Platform Auditor 概觀 - 技術文件
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 ---
 
 
-# Adobe Experience Platform Auditor Overview {#adobe-experience-cloud-auditor}
+# Adobe Experience Platform Auditor 概觀{#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor是Adobe Experience Platform的服務，與 [ObservePoint](https://www.observepoint.com/)（驗證數位實作的專家）共同開發。 本指南包含Auditor的技術檔案和自助說明。
+Adobe Experience Platform Auditor 是 Adobe Experience Platform 的一項服務，由 Adobe 與驗證數位實施的專家 [ObservePoint](https://www.observepoint.com/) 共同開發而成。本指南包含 Auditor 的技術文件和自助參考資源。
 
-有了Auditor,Adobe Experience cloud使用者會收到一份報告，報告會對其Adobe Experience cloud實作進行評分，並提供如何改進的指南。 Auditor可協助您個別或整體地從Adobe產品中獲得更多價值。
+透過 Auditor，Adobe Experience Cloud 使用者會收到一份報表，其中包含對其 Adobe Experience Cloud 實施的評分，並提供如何改進實施的指示。Auditor 有助於讓您的 Adobe 產品發揮更大的效益，無論是個別運作還是搭配使用皆然。
 
-使用Auditor，您可以：
+使用 Auditor 時，您可以：
 
-* **一次掃描** 500個網頁，以瞭解Adobe技術。 視需要使用進階篩選來包含或排除任何頁面。 您一次可以執行一次稽核，但稽核次數不限。
+* **掃描** 一次掃描 Adobe 技術的 500 個網頁。您可以視需要使用進階篩選器來包含或排除任何頁面。您一次可以執行一項稽核，稽核次數不限。
 
-* **瞭解** ：接收根據標籤存在、設定和一致性對Adobe實作評分的報表。
+* **瞭解** 接收會根據標記是否存在、設定和一致性對 Adobe 實施進行評分的報表。
 
-* **改進** ：取得有關如何升級實作以符合最佳實務的建議，讓您獲得Adobe投資的全部價值。 Auditor不僅僅提供廣泛的建議，還會告訴您特定實作的確切錯誤，即發現問題的網頁，然後提供如何修正它的指引。
+* **改進** 獲取相關建議，瞭解如何根據最佳實務準則將實施升級，讓您的 Adobe 投資充分發揮效益。Auditor 不僅會提供廣泛的建議，也會明確指出特定實施的錯誤、問題發生所在的網頁，然後提供如何加以修正的指引。
 
-若要讓您的網站有效推動更多業務並提供絕佳體驗，就需要正確實作。 如果沒有，則軟體會提供其潛在價值的一小部分，或者完全不提供任何內容。
+若要讓您的網站有效推動更多業務並提供絕佳體驗，就必須正確加以實施。若非如此，軟體將只能提供其一小部分的潛在價值，甚或完全沒有效用。
 
-但是，在不斷變動的狀態下，維持網站上細微的建置是一項沈重的負擔。 Auditor將此負擔轉化為提高Adobe投資回報的機會。
+然而，要在持續變化的現況下維持網站上複雜而精細的實施，是一項吃力的工作。Auditor 可將此重擔轉化為提高 Adobe 投資報酬率的機會。
 
-Auditor可讓您疑難排解並修正您自己的實作，讓您更能控制實作標籤，進而控制您的資料。 如此可減少聯絡客戶服務時對實施標籤的疑問。
+Auditor 讓您得以對自己的實施進行疑難排解和修正，而能夠進一步掌控實施標記，進而控制資料。如此，就不需要經常向客戶服務人員詢問關於實施標記的疑問。
 
-Auditor是Adobe與ObservePoint合作開發的工具。 Auditor使用者可使用有限的ObservePoint功能，而不需額外付費。 若要使用Auditor，您必須選擇加入ObservePoint的通訊內容。
+Auditor 是 Adobe 與 ObservePoint 共同開發的工具。Auditor 使用者可使用有限的 ObservePoint 功能，不需額外付費。若要使用 Auditor，您必須選擇加入 ObservePoint 的通訊。
 
-## Auditor社群論壇 {#section-59846f1856bc40aba23d02fdd9198e25}
+## Auditor 社群論壇{#section-59846f1856bc40aba23d02fdd9198e25}
 
-如果您需要協助以開始使用、提出問題或想要建議或就未來的增強功能投票，請造訪 [Auditor社群論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor) ，以聯絡專家和Adobe。
+若您在開始使用時需要協助、有所疑問，或想就未來的增強功能提出建議或投票，請造訪 [Auditor 社群論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)，與專家和 Adobe 取得聯繫。
 
-## Release information {#section-be3e331a123d40f185aa59f23f69355e}
+## 發行資訊{#section-be3e331a123d40f185aa59f23f69355e}
 
-如需最新版本的詳細資訊，請參閱Auditor [發行說明](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1)。
+如需最新版本的相關資訊，請參閱 [Auditor 發行說明](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1)。
