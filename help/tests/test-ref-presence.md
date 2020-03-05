@@ -1,20 +1,20 @@
 ---
-description: 此參考提供了有關Auditor為標籤存在而執行的測試的詳細資訊。
-seo-description: 此參考提供了有關Auditor為標籤存在而執行的測試的詳細資訊。
-seo-title: 標籤存在
-title: 標籤存在
+description: 此參考提供與 Auditor 針對標記是否存在而執行的測試有關的詳細資訊。
+seo-description: 此參考提供與 Auditor 針對標記是否存在而執行的測試有關的詳細資訊。
+seo-title: 標記是否存在
+title: 標記是否存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# 標籤存在
+# 標記是否存在
 
-此參考提供了有關Auditor為標籤存在而執行的測試的詳細資訊。
+此參考提供與 Auditor 針對標記是否存在而執行的測試有關的詳細資訊。
 
-Auditor會評估標籤是否存在，以及標籤是否在您的頁面代碼中位於正確位置。
+Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正確位置。
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -26,112 +26,112 @@ Auditor會評估標籤是否存在，以及標籤是否在您的頁面代碼中�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Advertising Cloud —— 程式碼呈現</b> </p> <p>重量：5 </p> </td> 
-   <td colname="col2"> <p> DOM中不提供Advertising cloud標籤。 </p> </td> 
-   <td colname="col3"> <p>使用Advertising Cloud Launch Extension實作Advertising cloud標籤。 </p> </td> 
+   <td colname="col1"> <p><b>Advertising Cloud - 程式碼是否存在</b> </p> <p>權重：5 </p> </td> 
+   <td colname="col2"> <p> Advertising Cloud 標記無法在 DOM 中使用。 </p> </td> 
+   <td colname="col3"> <p>使用 Advertising Cloud Launch Extension 來實施 Advertising Cloud 標記。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Advertising Cloud —— 實作區段像素</b> </p> <p>重量：5 </p> </td> 
-   <td colname="col2"> <p> 將您的Advertising cloud細分像素升級至新的Advertising cloud僅限影像標籤。 使用過時的AMO區段標籤可能會造成資料遺失。 </p> </td> 
-   <td colname="col3"> <p>使用Advertising Cloud Launch Extension實作Advertising cloud區段像素。 </p> </td> 
+   <td colname="col1"> <p><b>Advertising Cloud - 實施區段像素</b> </p> <p>權重：5 </p> </td> 
+   <td colname="col2"> <p> 將您的 Advertising Cloud 區段像素升級為新的 Advertising Cloud 僅限影像標記。使用過時的 AMO 區段標記可能會導致資料遺失。 </p> </td> 
+   <td colname="col3"> <p>使用 Advertising Cloud Launch Extension 來實施 Advertising Cloud 區段像素。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics —— 在DOM中載入</b> </p> <p>重量：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 未偵測到Adobe Analytics標籤。 </p> </td> 
-   <td colname="col3"> <p>安裝最新版Analytics。 </p> </td> 
+   <td colname="col1"> <p><b>Analytics - 在 DOM 中載入</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/implement/" format="https" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 未偵測到 Adobe Analytics 標記。 </p> </td> 
+   <td colname="col3"> <p>安裝最新版的 Analytics。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> DTM —— 已載入資料庫</b> </p> <p>重量：5 </p> <p>其他資訊: </p> <p> 
+   <td colname="col1"> <p><b>DTM - 載入程式庫</b> </p> <p>權重：5 </p> <p>其他資訊: </p> <p> 
      <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
-      <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/en/dtm/using/admin/c-troubleshooting.html" format="html" scope="external"> DTM疑難排解</a> </li> 
-      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 新增頁首與頁尾程式碼</a> </li> 
+      <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/admin/c-troubleshooting.html" format="html" scope="external">DTM 疑難排解</a> </li> 
+      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 新增頁首與頁尾程式碼</a> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p> 在DOM中找不到全域_satellite物件。 動態標籤管理未安裝或無法執行。 </p> </td> 
-   <td colname="col3"> <p>確認DTM程式庫已建置在頁面上，且未遭後續指令碼活動封鎖。 </p> </td> 
+   <td colname="col2"> <p> 在 DOM 中找不到全域_satellite 物件。Dynamic Tag Management 未安裝或無法執行。 </p> </td> 
+   <td colname="col3"> <p>確認已在頁面上實施 DTM 程式庫，且後續指令碼活動不會加以封鎖。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> DTM —— 單一內嵌代碼</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 生產網站只應載入一個DTM程式庫。 </p> </td> 
+   <td colname="col1"> <p><b>DTM - 單一內嵌程式碼</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 生產網站應載入一個 DTM 程式庫即可。 </p> </td> 
    <td colname="col3"> <p>確認頁面上僅載入生產程式庫。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM - pageBottom回呼存在於&lt;body&gt;</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 在頁 <span class="codeph"> 面的&lt;body&gt;</span><span class="codeph"></span> （動態標籤管理需要）中找不到_satellite.pageBottom()回呼。 </p> <p>如果頁面上完 <span class="codeph"> 全 </span>找不到pageBottom呼叫，或者它位於 <span class="codeph"> &lt;head&gt;</span> 標籤（或其他非預期位置），則此測試會失敗。 只有在&lt;body&gt;標 <span class="codeph"> 簽內找到pageBottom</span> 時 <span class="codeph"> ，才會傳遞</span> 。 如果它完全不在頁面上，它將無法運作，其他兩個pageBottom測 <span class="codeph"> 試也會失敗</span> 。 </p> </td> 
-   <td colname="col3"> <p>在結束&lt;/body&gt;標籤前加入內嵌 <span class="codeph"> 指令碼</span> ，以確保正確的DTM功能。 </p> </td> 
+   <td colname="col1"> <p><b>DTM - pageBottom 回呼存在於 &lt;body&gt; 中</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 在頁面的 <span class="codeph">&lt;body&gt;</span> 內找不到 Dynamic Tag Management 所需的 <span class="codeph">_satellite.pageBottom()</span> 回呼。 </p> <p>如果在頁面上完全找不到 <span class="codeph">pageBottom</span> 呼叫，或該呼叫位於 <span class="codeph">&lt;head&gt;</span> 標記中 (或其他非預期的位置)，則此測試不會通過。只有在 <span class="codeph">pageBottom</span> 位於 <span class="codeph">&lt;body&gt;</span> 標記內的某處時，測試才會通過。如果完全不在頁面上，則無法運作，且其他兩個 <span class="codeph">pageBottom</span> 測試也不會通過。 </p> </td> 
+   <td colname="col3"> <p>在結尾的 <span class="codeph">&lt;/body&gt;</span> 標記前面加上緊鄰的內嵌指令碼，以確保 DTM 可正常運作。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>DTM - pageBottom標籤引發</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 未偵 <code> pageBottom</code> 測到DTM標籤。 </p> <p>如果呼叫位於導致類似 <code> if</code> 的陳述式中，則可能發生此情況 <code> if (false) {_satellite.pageBottom()}</code>。 因此，雖然標籤可能存在且已正確放置，但標籤仍可能無法觸發。 </p> </td> 
-   <td colname="col3"> <p>在每個頁面上 <code> pageBottom</code> 安裝DTM呼叫。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <draft-comment>
-      1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID服務——程式碼存在</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p>找不到Experience Cloud ID服務程式碼。 強烈建議使用Experience Cloud ID(MCID)，以確保您從Experience cloud解決方案中獲得最大價值，對於跨Experience cloud解決方案的ID管理至關重要。 </p> </td> 
-   <td colname="col3"> <p> 安裝最新版的MCID。 </p> </td> 
+   <td colname="col1"> <p><b>DTM - 引發 pageBottom 標記</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 未偵測到 DTM <code> pageBottom</code> 標記。 </p> <p>如果呼叫位於 <code> if</code> 陳述式內而產生類似於 <code> if (false) {_satellite.pageBottom()}</code> 的行為，就會發生此狀況。因此，儘管標記可能存在且已正確放置，仍可能無法引發。 </p> </td> 
+   <td colname="col3"> <p>在每個頁面上安裝 DTM <code> pageBottom</code> 呼叫。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID服務- cookie存在</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 找 <span class="codeph"> 不到AMCV_</span> Cookie。 您必須從VisitorAPI.js程式碼實例 <span class="codeph"> 化訪客物件</span> 。 </p> </td> 
-   <td colname="col3"> <p> 如果這是DTM實作，請確認AdobeOrg ID已正確輸入至MCID工具。 </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - 程式碼是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/overview.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p>找不到 Experience Cloud ID 服務程式碼。強烈建議使用 Experience Cloud ID (MCID) 以確保能夠充分發揮 Experience Cloud 解決方案的效益，且其對於 Experience Cloud 解決方案的 ID 管理而言十分重要。 </p> </td> 
+   <td colname="col3"> <p> 安裝最新版的 MCID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID服務- MID值呈現</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 在AMCV_ <span class="codeph"> Cookie中找不到MID值</span> 。 </p> </td> 
-   <td colname="col3"> <p>請再次測試，以檢查是否有任何MCID API延遲。 如果情況持續，請聯絡Adobe客戶服務。 </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - Cookie 是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 找不到 <span class="codeph">AMCV_</span> Cookie。您必須從 <span class="codeph">VisitorAPI.js</span> 程式碼將訪客物件具現化。 </p> </td> 
+   <td colname="col3"> <p> 如果這是 DTM 實施，請確認已在 MCID 工具中正確輸入 AdobeOrg ID。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 
+    <draft-comment>
+      1.0.1 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - 有 MID 值存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/cookies.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 在 <span class="codeph">AMCV_</span> Cookie 中找不到 MID 值。 </p> </td> 
+   <td colname="col3"> <p>再次測試以確認是否有任何 MCID API 延遲。若持續發生此狀況，請聯絡 Adobe 客戶服務。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b> 啟動——已載入資料庫</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 在DOM中找不到全域_satellite物件。 Launch未安裝或無法執行。 </p> </td> 
-   <td colname="col3"> <p>確認啟動程式庫已實作在頁面上，且未遭後續指令碼活動封鎖。 </p> </td> 
+    </draft-comment> <p><b>Launch - 載入程式庫</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 在 DOM 中找不到全域_satellite 物件。Launch 未安裝或無法執行。 </p> </td> 
+   <td colname="col3"> <p>確認已在頁面上實施 Launch 程式庫，且後續指令碼活動不會加以封鎖。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>啟動——沒有多個內嵌指令碼</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p>頁面上不應載入多個內嵌指令碼。 生產網站只應載入一個Launch程式庫。 </p> </td> 
+    </draft-comment> <p><b>Launch - 沒有多個內嵌指令碼</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p>頁面上不應載入多個內嵌指令碼。生產網站應載入一個 Launch 程式庫即可。 </p> </td> 
    <td colname="col3"> <p>確認頁面上僅載入生產程式庫。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom回呼存在於&lt;body&gt;中</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 在頁 <span class="codeph"> 面的&lt;body&gt;中找不到</span> _satellite.pageBottom() <span class="codeph"></span> ，這是Launch所需的。 </p> <p>如果頁面上完 <span class="codeph"> 全 </span>找不到pageBottom呼叫，或者它位於 <span class="codeph"> &lt;head&gt;</span> 標籤（或其他非預期位置），則此測試會失敗。 只有在&lt;body&gt;標 <span class="codeph"> 簽內找到pageBottom</span> 時 <span class="codeph"> ，才會傳遞</span> 。 如果它完全不在頁面上，它將無法運作，其他兩個pageBottom測 <span class="codeph"> 試也會失敗</span> 。 </p> </td> 
-   <td colname="col3"> <p>在結束&lt;/body&gt;標籤前立即新增內嵌 <span class="codeph"> 指令碼</span> ，以確保正確的啟動功能。 </p> </td> 
+    </draft-comment> <p><b>Launch - pageBottom 回呼存在於 &lt;body&gt; 中</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> 在頁面的 <span class="codeph">&lt;body&gt;</span> 內找不到 Launch 所需的 <span class="codeph">_satellite.pageBottom()</span> 回呼。 </p> <p>如果在頁面上完全找不到 <span class="codeph">pageBottom</span> 呼叫，或該呼叫位於 <span class="codeph">&lt;head&gt;</span> 標記中 (或其他非預期的位置)，則此測試不會通過。只有在 <span class="codeph">pageBottom</span> 位於 <span class="codeph">&lt;body&gt;</span> 標記內的某處時，測試才會通過。如果完全不在頁面上，則無法運作，且其他兩個 <span class="codeph">pageBottom</span> 測試也不會通過。 </p> </td> 
+   <td colname="col3"> <p>請在結尾的 <span class="codeph">&lt;/body&gt;</span> 標記前面加上緊鄰的內嵌指令碼，以確保 Launch 可正常運作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - pageBottom回呼在非同步部署時不應存在</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p>在頁 <span class="codeph"> 面上找到_satellite.pageBottom()</span> ，當Launch非同步部署時，不應該是這樣。 </p> </td> 
-   <td colname="col3"> <p>移除<span class="codeph"> _satellite.pageBottom()指令碼</span> ，以啟用正確的啟動功能。 </p> </td> 
+    </draft-comment> <p><b>Launch - 進行非同步部署時，pageBottom 回呼不應存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p>在頁面上找到 <span class="codeph">_satellite.pageBottom()</span> 回呼，但以非同步方式部署 Launch 時不應有此回呼。 </p> </td> 
+   <td colname="col3"> <p>移除 <span class="codeph">_satellite.pageBottom()</span> 指令碼，以啟用正確的 Launch 功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Target —— 程式碼存在</b> </p> <p>重量：5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p>Target應在DOM中定義。 </p> </td> 
-   <td colname="col3"> <p>安裝最新版Target(at.js)。 </p> </td> 
+    </draft-comment> <p><b>Target - 程式碼是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p>Target 應定義於 DOM 中。 </p> </td> 
+   <td colname="col3"> <p>安裝最新版的 Target (at.js)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> Target —— 在&lt;head&gt;中載入的程式庫</b> </p> <p>重量：4 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> Target程式庫應載入至 <span class="codeph"> &lt;head&gt;標籤</span> 。 </p> </td> 
-   <td colname="col3"> <p> 檢查以確定Target程式庫已載入至 <span class="codeph"> &lt;head&gt;標籤</span> 。 </p> </td> 
+   <td colname="col1"> <p><b>Target - 在 &lt;head&gt; 中載入程式庫</b> </p> <p>權重：4 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col2"> <p> Target 程式庫應載入 <span class="codeph">&lt;head&gt;</span> 標記中。 </p> </td> 
+   <td colname="col3"> <p> 確認 Target 程式庫已載入 <span class="codeph">&lt;head&gt;</span> 標記中。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
