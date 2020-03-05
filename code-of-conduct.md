@@ -1,6 +1,6 @@
 ---
 source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Adobe 行為準則
@@ -46,4 +46,4 @@ translation-type: tm+mt
 
 ## 歸因
 
-本行為準則改編自 [https://contributor-covenant.org/version/1/4 所提供的](https://contributor-covenant.org)貢獻者公約[ 1.4 版。](https://contributor-covenant.org/version/1/4/)
+本行為準則改編自[貢獻者公約](https://contributor-covenant.org) 1.4 版，取得的網址為 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
