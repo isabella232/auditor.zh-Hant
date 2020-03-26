@@ -4,7 +4,7 @@ seo-description: Adobe Experience Platform Auditor 的技術文件。
 seo-title: 'Adobe Experience Platform Auditor 的技術文件 '
 title: Adobe Experience Platform Auditor 概觀 - 技術文件
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 # Adobe Experience Platform Auditor 概觀{#adobe-experience-cloud-auditor}
 
-Adobe Experience Platform Auditor 是 Adobe Experience Platform 的一項服務，由 Adobe 與驗證數位實施的專家 [ObservePoint](https://www.observepoint.com/) 共同開發而成。本指南包含Auditor的技術檔案和自助說明。
+Adobe Experience Platform Auditor 是 Adobe Experience Platform 的一項服務，由 Adobe 與驗證數位實施的專家 [ObservePoint](https://www.observepoint.com/) 共同開發而成。本指南包含 Auditor 的技術文件和自助參考資源。
 
 透過 Auditor，Adobe Experience Cloud 使用者會收到一份報表，其中包含對其 Adobe Experience Cloud 實施的評分，並提供如何改進實施的指示。Auditor 有助於讓您的 Adobe 產品發揮更大的效益，無論是個別運作還是搭配使用皆然。
 
