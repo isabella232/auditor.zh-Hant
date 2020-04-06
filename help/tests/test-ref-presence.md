@@ -4,8 +4,8 @@ seo-description: 此參考提供與 Auditor 針對標記是否存在而執行的
 seo-title: 標記是否存在
 title: 標記是否存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -36,7 +36,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col3"> <p>使用 Advertising Cloud Launch Extension 來實施 Advertising Cloud 區段像素。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Analytics - 在 DOM 中載入</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/implement/" format="https" scope="external"> 其他資訊</a> </p> </td> 
+   <td colname="col1"> <p><b>Analytics - 在 DOM 中載入</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 未偵測到 Adobe Analytics 標記。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的 Analytics。 </p> </td> 
   </tr> 
