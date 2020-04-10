@@ -4,7 +4,7 @@ seo-description: 此參考提供與 Auditor 針對測試而顯示之警報有關
 seo-title: 警報
 title: 警報
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
