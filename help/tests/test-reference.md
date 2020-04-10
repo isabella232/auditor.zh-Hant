@@ -4,7 +4,7 @@ seo-description: 此參考提供與 Auditor 執行的測試有關的詳細資訊
 seo-title: 測試參考
 title: 測試參考
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
