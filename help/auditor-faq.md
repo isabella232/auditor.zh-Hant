@@ -1,11 +1,14 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Auditor常見問題集
+seo-title: Auditor 常見問題集
 title: Auditor 常見問題集
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 * [報表中提供哪些資訊？](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [這些資訊有何功用？](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [Auditor 是否可稽核非 Adobe 技術？](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [我是否可將 IP 位址列入白名單以允許掃描頁面…](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [我是否可核准我的IP位址以允許掃描頁面……](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [Auditor 是否使用與 Observepoint 相同的 IP 範圍？](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## 什麼是 Auditor?{#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -126,7 +129,7 @@ ObservePoint 技術目前會對在檔案連結中找到的 URL 進行編目。�
 
 不會。不過，ObservePoint 的完整方案可讓客戶稽核並監視所有行銷標記和技術。身為 Adobe 客戶，您可以存取免費試用帳戶。若要存取試用帳戶，請造訪 [ObservePoint 的 Auditor 頁面](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium)。
 
-## 我是否可將 IP 位址列入白名單，以允許掃描受登入保護的頁面？{#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 目前，若無完整的 ObservePoint 方案，即不支援此功能。
 
