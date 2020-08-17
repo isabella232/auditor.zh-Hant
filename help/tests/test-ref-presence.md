@@ -4,8 +4,11 @@ seo-description: 此參考提供與 Auditor 針對標記是否存在而執行的
 seo-title: 標記是否存在
 title: 標記是否存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服務 - Cookie 是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - Cookie 是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 找不到 <span class="codeph">AMCV_</span> Cookie。您必須從 <span class="codeph">VisitorAPI.js</span> 程式碼將訪客物件具現化。 </p> </td> 
    <td colname="col3"> <p> 如果這是 DTM 實施，請確認已在 MCID 工具中正確輸入 AdobeOrg ID。 </p> </td> 
   </tr> 
