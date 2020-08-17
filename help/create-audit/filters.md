@@ -4,8 +4,11 @@ seo-description: 包含篩選器會限制稽核可從起始 URL 開始進行編�
 seo-title: 包含和排除篩選器
 title: 包含和排除篩選器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +80,7 @@ Content from ObservePoint (https://help.observepoint.com/articles/2872121-includ
 
 「包含篩選器」可包含確切的 URL、部分 URL 或規則運算式。例如，如果 [!DNL http://mysite.com] 是起始 URL，則下列頁面依預設將符合掃描的條件 (請注意粗體字元)：
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-對於複雜的 URL 模式，請使用 [ObservePoint 的規則運算式測試器](http://regex.observepoint.com/)。
-
-另請參閱 [ObservePoint 的常用規則運算式](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint)文件，以瞭解常見的模式比對使用案例。
+對於複雜的 URL 模式，請使用 [ObservePoint 的規則運算式測試器](https://regex.observepoint.com/)。
 
 ## 排除篩選器{#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ http://
 
 ## ObservePoint 文件{#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-本文是與 ObservePoint 共同撰寫的。如需最新資訊，請參閱 [ObservePoint 文件](https://help.observepoint.com/articles/2872121-include-and-exclude-filters)。
+本文是與 ObservePoint 共同撰寫的。For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
