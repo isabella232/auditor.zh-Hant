@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: 測試規則 1.0.1
 title: 測試規則 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: ht
-source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '2737'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +73,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - pageBottom 回呼位置</b> </p> <p>權重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/t_add_header_fooder_code.html" format="html" scope="external"> 其他資訊</a> </p> 
+    </draft-comment> <p><b>DTM - pageBottom 回呼位置</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> 
     <draft-comment>
       TEa9df69942f404055a64262889c8b21d3 
     </draft-comment> </td> 
@@ -81,7 +84,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - 自行託管</b> </p> <p>權重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/deployment.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>DTM - 自行託管</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/client-side-information.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> DTM 程式庫在 Adobe 的 Akamai 執行個體上受到託管 (網址是 <span class="filepath">assets.adobedtm.com</span>)。 </p> <p> 自行託管是載入 DTM 的建議方法，因為此方法可讓您透過快取控制進一步掌控網站效能、減少對第三方指令碼的依賴，且更能掌握發佈程序。您可以透過自己的網站託管或 CDN 來託管及管理 DTM 程式庫。 </p> </td> 
    <td colname="col3"> <p>自行託管是在頁面上載入 DTM 的建議方法。雖然透過 Akamai CDN 進行 DTM 託管在多數情況下都是可行的，但自行託管可以改善頁面效能。 </p> </td> 
   </tr> 
@@ -89,7 +92,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服務 - 僅使用一個 AdobeOrg</b> </p> <p>權重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/mcvid/mcvid_id_request.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - 僅使用一個 AdobeOrg</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/id-request.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>在一般 MCID 實施中，應使用單一 AdobeOrg。 </p> </td> 
    <td colname="col3"> <p>驗證此實施有多個 AdobeOrg ID。 </p> </td> 
   </tr> 
@@ -97,7 +100,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - pageBottom 回呼位置</b> </p> <p>權重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> 
+    </draft-comment> <p><b>Launch - pageBottom 回呼位置</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -108,7 +111,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 自行託管</b> </p> <p>權重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 自行託管</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>Launch 程式庫在 Adobe 的 Akamai 執行個體上受到託管 (網址是 <span class="filepath">assets.adobedtm.com</span>)。 </p> <p>自行託管是載入 Launch 的建議方法，因為此方法可讓您透過快取控制進一步掌控網站效能、減少對第三方指令碼的依賴，且更能掌握發佈程序。您可以透過自己的網站託管或 CDN 來託管及管理 Launch 程式庫。 </p> </td> 
    <td colname="col3"> <p>雖然透過 Akamai CDN 進行 Launch 託管在多數情況下都是可行的，但建議您實施自行託管，作為改善頁面效能的首要步驟。 </p> </td> 
   </tr> 
@@ -116,7 +119,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 應以非同步方式部署</b> </p> <p>權重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 應以非同步方式部署</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>Launch 應以非同步方式部署，以獲得最佳效能。 </p> </td> 
    <td colname="col3"> <p>在內嵌指令碼中加入 async 參數，以確保非同步 Launch 功能可正確運作 </p> </td> 
   </tr> 
@@ -124,7 +127,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault 中的內容</b> </p> <p>權重：0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Target - mboxDefault 中的內容</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 使用 at.js 時，mboxDefault 中應有內容存在。 </p> </td> 
    <td colname="col3"> <p>確認有可用的內容。 </p> </td> 
   </tr> 
@@ -174,7 +177,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - 在 DOM 中具現化</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/implement/impl_testing.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - 在 DOM 中具現化</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> Adobe Analytics 程式碼未安裝或無法執行。在網頁上找不到 Analytics 程式碼時，會傳回 0。 </p> </td> 
    <td colname="col3"> <p>確認已在頁面上實施 Analytics 標記，且後續指令碼活動不會加以封鎖。 </p> </td> 
   </tr> 
@@ -182,7 +185,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - 具現化一次</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/implement/" format="https" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - 具現化一次</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 在頁面上偵測到 Adobe Analytics 程式碼多次。在網頁上找不到 Analytics 程式碼時，會傳回 0。 </p> </td> 
    <td colname="col3"> <p>確定頁面上只有一個 Analytics 標記。 </p> </td> 
   </tr> 
@@ -190,7 +193,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - 最新版本</b> </p> <p>權重：3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/appmeasurement/release" format="https" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - 最新版本</b> </p> <p>權重：3 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 您的頁面未執行最新版 Analytics 程式碼庫。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。在網頁上找不到 Analytics 程式碼時，會傳回 0。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的 Analytics 程式庫。 </p> </td> 
   </tr> 
@@ -198,7 +201,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - 在 DOM 準備就緒後，以非同步方式載入第三方標記</b> </p> <p>權重：3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/load_order.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>DTM - 在 DOM 準備就緒後，以非同步方式載入第三方標記</b> </p> <p>權重：3 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/resources/load-order.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>為了在良好的使用者體驗與收集正確資料之間取得平衡，應在 DOM 準備就緒時觸發第三方標記。這樣可以確保這些追蹤指令碼能夠在不影響網站功能的情況下執行。 </p> </td> 
    <td colname="col3"> <p>調整所有執行第三方像素的規則，使其在 DOM 就緒時引發，以解決此問題。 </p> </td> 
   </tr> 
@@ -206,7 +209,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服務 - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/macid.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 您的頁面未執行最新版的訪客 ID 服務程式碼庫 <span class="codeph">visitorAPI.js</span>。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的訪客 ID 服務程式庫。 </p> </td> 
   </tr> 
@@ -214,7 +217,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>這些頁面未執行最新版的 Launch 程式碼庫 (Turbine)。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
    <td colname="col3"> <p> 重建 Launch 程式庫並加以發佈，以更新 Launch 程式庫。 </p> </td> 
   </tr> 
@@ -222,7 +225,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/dtm/update-target-tool.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Target - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 您的頁面未執行最新版 Target 程式碼庫。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的 Target 程式庫。 </p> </td> 
   </tr> 
@@ -230,7 +233,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - 在 mboxCreate 前面加上 mboxDefault</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Target - 在 mboxCreate 前面加上 mboxDefault</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p><span class="codeph">mboxCreate</span> 的正確用法如下所示： </p> <p> <span class="codeph">&lt;div class="mboxDefault"&gt;&lt;! -Customer content--&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>在叫用 <span class="codeph">mboxCreate()</span> 之前，請務必先加上 <span class="codeph">&lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> 標記。at.js 不會為您加上此標記。 </p> </td> 
   </tr> 
@@ -238,7 +241,7 @@ source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - 有效的 DOCTYPE</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Target - 有效的 DOCTYPE</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 偵測到無效的 DOCTYPE。在此情況下不會引發 mbox。 </p> <p>對 at.js 而言，DOCTYPE 必須處於「標準」模式，否則 Target 將無法運作。 </p> </td> 
    <td colname="col3"> <p>更新頁面上的 DOCTYPE。 </p> </td> 
   </tr> 
@@ -264,7 +267,7 @@ Auditor 的一致性測試會在所有掃描的頁面上尋找不一致之處。
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - 一致的程式碼版本</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/implement/choose-implementation-method.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - 一致的程式碼版本</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 找到多個 Analytics 程式碼版本。 </p> </td> 
    <td colname="col3"> <p>將所有 Analytics 執行個體取代為目前版本。 </p> </td> 
   </tr> 
@@ -306,7 +309,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - 在 DOM 中載入</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/implement/" format="https" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - 在 DOM 中載入</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 未偵測到 Adobe Analytics 標記。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的 Analytics。 </p> </td> 
   </tr> 
@@ -316,8 +319,8 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
       1.0.1 
     </draft-comment> <p><b>DTM - 載入程式庫</b> </p> <p>權重：5 </p> <p>其他資訊: </p> <p> 
      <ul id="ul_7E706EBC2E4649A69732E6982E116E22"> 
-      <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/c_Troubleshooting.html" format="html" scope="external">DTM 疑難排解</a> </li> 
-      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/t_add_header_fooder_code.html" format="html" scope="external"> 新增頁首與頁尾程式碼</a> </li> 
+      <li id="li_9AF0257E39C347A9AE6D8D8FFBD66B38"><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/admin/c-troubleshooting.html" format="html" scope="external">DTM 疑難排解</a> </li> 
+      <li id="li_7B422BCCD2654B0A9059799FB5276BE8"><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 新增頁首與頁尾程式碼</a> </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> 在 DOM 中找不到全域_satellite 物件。Dynamic Tag Management 未安裝或無法執行。 </p> </td> 
    <td colname="col3"> <p>確認已在頁面上實施 DTM 程式庫，且後續指令碼活動不會加以封鎖。 </p> </td> 
@@ -326,7 +329,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - 單一內嵌程式碼</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>DTM - 單一內嵌程式碼</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 生產網站應載入一個 DTM 程式庫即可。 </p> </td> 
    <td colname="col3"> <p>確認頁面上僅載入生產程式庫。 </p> </td> 
   </tr> 
@@ -334,7 +337,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - pageBottom 回呼存在於 &lt;body&gt; 中</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/t_add_header_fooder_code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>DTM - pageBottom 回呼存在於 &lt;body&gt; 中</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 在頁面的 <span class="codeph">&lt;body&gt;</span> 內找不到 Dynamic Tag Management 所需的 <span class="codeph">_satellite.pageBottom()</span> 回呼。 </p> <p>如果在頁面上完全找不到 <span class="codeph">pageBottom</span> 呼叫，或該呼叫位於 <span class="codeph">&lt;head&gt;</span> 標記中 (或其他非預期的位置)，則此測試不會通過。只有在 <span class="codeph">pageBottom</span> 位於 <span class="codeph">&lt;body&gt;</span> 標記內的某處時，測試才會通過。如果完全不在頁面上，則無法運作，且其他兩個 <span class="codeph">pageBottom</span> 測試也不會通過。 </p> </td> 
    <td colname="col3"> <p>在結尾的 <span class="codeph">&lt;/body&gt;</span> 標記前面加上緊鄰的內嵌指令碼，以確保 DTM 可正常運作。 </p> </td> 
   </tr> 
@@ -342,7 +345,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - 引發 pageBottom 標記</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/dtm/t_add_header_fooder_code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>DTM - 引發 pageBottom 標記</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 未偵測到 DTM <span class="codeph">pageBottom</span> 標記。 </p> <p>如果呼叫位於 <span class="codeph">if</span> 陳述式內而產生類似於 <span class="codeph">if (false) {_satellite.pageBottom()}</span> 的行為，就會發生此狀況。因此，儘管標記可能存在且已正確放置，仍可能無法引發。 </p> </td> 
    <td colname="col3"> <p>在每個頁面上安裝 DTM <span class="codeph">pageBottom</span> 呼叫。 </p> </td> 
   </tr> 
@@ -350,7 +353,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服務 - 程式碼是否存在</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/mcvid/mcvid-overview.htmlimplementation-guides.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - 程式碼是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>找不到 Experience Cloud ID 服務程式碼。強烈建議使用 Experience Cloud ID (MCID) 以確保能夠充分發揮 Experience Cloud 解決方案的效益，且其對於 Experience Cloud 解決方案的 ID 管理而言十分重要。 </p> </td> 
    <td colname="col3"> <p> 安裝最新版的 MCID。 </p> </td> 
   </tr> 
@@ -358,7 +361,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服務 - Cookie 是否存在</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/mcvid/mcvid-implementation-guides.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - Cookie 是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation/implementation-guides.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 找不到 <span class="codeph">AMCV_</span> Cookie。您必須從 <span class="codeph">VisitorAPI.js</span> 程式碼將訪客物件具現化。 </p> </td> 
    <td colname="col3"> <p> 如果這是 DTM 實施，請確認已在 MCID 工具中正確輸入 AdobeOrg ID。 </p> </td> 
   </tr> 
@@ -366,7 +369,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID 服務 - 有 MID 值存在</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/mcvid/mcvid_cookies.html#concept_37156268512445F287CD4BBB2839FFAA__section_C55AF54828DC4CCE89F6118655D694C8" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID 服務 - 有 MID 值存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/intro/cookies.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 在 <span class="codeph">AMCV_</span> Cookie 中找不到 MID 值。 </p> </td> 
    <td colname="col3"> <p>再次測試以確認是否有任何 MCID API 延遲。若持續發生此狀況，請聯絡 Adobe 客戶服務。 </p> </td> 
   </tr> 
@@ -374,7 +377,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 載入程式庫</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 載入程式庫</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 在 DOM 中找不到全域_satellite 物件。Launch 未安裝或無法執行。 </p> </td> 
    <td colname="col3"> <p>確認已在頁面上實施 Launch 程式庫，且後續指令碼活動不會加以封鎖。 </p> </td> 
   </tr> 
@@ -382,7 +385,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 沒有多個內嵌指令碼</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 沒有多個內嵌指令碼</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>頁面上不應載入多個內嵌指令碼。生產網站應載入一個 Launch 程式庫即可。 </p> </td> 
    <td colname="col3"> <p>確認頁面上僅載入生產程式庫。 </p> </td> 
   </tr> 
@@ -390,7 +393,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - pageBottom 回呼存在於 &lt;body&gt; 中</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Launch - pageBottom 回呼存在於 &lt;body&gt; 中</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 在頁面的 <span class="codeph">&lt;body&gt;</span> 內找不到 Launch 所需的 <span class="codeph">_satellite.pageBottom()</span> 回呼。 </p> <p>如果在頁面上完全找不到 <span class="codeph">pageBottom</span> 呼叫，或該呼叫位於 <span class="codeph">&lt;head&gt;</span> 標記中 (或其他非預期的位置)，則此測試不會通過。只有在 <span class="codeph">pageBottom</span> 位於 <span class="codeph">&lt;body&gt;</span> 標記內的某處時，測試才會通過。如果完全不在頁面上，則無法運作，且其他兩個 <span class="codeph">pageBottom</span> 測試也不會通過。 </p> </td> 
    <td colname="col3"> <p>請在結尾的 <span class="codeph">&lt;/body&gt;</span> 標記前面加上緊鄰的內嵌指令碼，以確保 Launch 可正常運作。 </p> </td> 
   </tr> 
@@ -398,7 +401,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - 進行非同步部署時，pageBottom 回呼不應存在</b> </p> <p>權重：5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/experience-cloud/launch/t_quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    </draft-comment> <p><b>Launch - 進行非同步部署時，pageBottom 回呼不應存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p>在頁面上找到 <span class="codeph">_satellite.pageBottom()</span> 回呼，但以非同步方式部署 Launch 時不應有此回呼。 </p> </td> 
    <td colname="col3"> <p>移除 <span class="codeph">_satellite.pageBottom()</span> 指令碼，以啟用正確的 Launch 功能。 </p> </td> 
   </tr> 
