@@ -4,8 +4,11 @@ seo-description: 開始使用 Auditor
 seo-title: 快速入門
 title: 快速入門
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -44,10 +47,10 @@ This page is a placeholder for now, we need things like prerequisites, any plann
 
    ![](assets/config.png)
 
-   如需所有設定選項的說明，請參閱[建立新的稽核](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d)。
+   如需所有設定選項的說明，請參閱[建立新的稽核](../create-audit/create-new-audit.md)。
 1. 檢視您的報表。
 
-   當您收到電子郵件得知掃描已完成時，請按一下連結以[檢視您的報表](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869)，以開始瞭解有哪些機會可改善您的實施，並且讓 Adobe 解決方案發揮更大的效益。
+   當您收到電子郵件得知掃描已完成時，請按一下連結以[檢視您的報表](../reports/scorecard.md)，以開始瞭解有哪些機會可改善您的實施，並且讓 Adobe 解決方案發揮更大的效益。
 
    您也可以在 [Auditor](../get-started/audit-list.md) 頁面中按一下稽核的名稱，以查看稽核的狀態，並查看稽核完成後的報表。
 
