@@ -4,8 +4,11 @@ seo-description: Adobe Experience Platform Auditor 是 Adobe Experience Platform
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -38,4 +41,4 @@ Auditor 是 Adobe 與 ObservePoint 共同開發的工具。Auditor 使用者可�
 
 ## 發行資訊{#section-be3e331a123d40f185aa59f23f69355e}
 
-如需最新版本的相關資訊，請參閱 [Auditor 發行說明](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1)。
+如需最新版本的相關資訊，請參閱 [Auditor 發行說明](release-notes.md)。
