@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: 測試規則 0.0.8
 title: 測試規則 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: b56d3d2bd79c812fda6a75827d14044d9a8a3b4c
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '1988'
+ht-degree: 100%
 
 ---
 
@@ -117,7 +120,7 @@ Auditor 會根據其他規則和建議的最佳實務來評估標記。
     <td colname="col3"> <p>確定頁面上只有一個 Analytics 標記。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - 最新版本</b> </p> <p>權重：3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/zh_TW/sc/appmeasurement/release" format="https" scope="external"> 其他資訊</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - 最新版本</b> </p> <p>權重：3 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
     <td colname="col2"> <p> 您的頁面未執行最新版 Analytics 程式碼庫。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。在網頁上找不到 Analytics 程式碼時，會傳回 0。 </p> </td>       
     <td colname="col3"> <p>安裝最新版的 Analytics 程式庫。 </p> </td> 
    </tr> 
@@ -172,7 +175,7 @@ Auditor 會評估各 URL 的標記是否一致。
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - 一致的程式碼版本</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - 一致的程式碼版本</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
     <td colname="col2"> <p> 找到多個 Analytics 程式碼版本。 </p> </td> 
     <td colname="col3"> <p>將所有 Analytics 執行個體取代為目前版本。 </p> </td> 
    </tr> 
@@ -236,7 +239,7 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
     <td colname="col3"> <p>在每個頁面上安裝 DTM <span class="codeph">pageBottom</span> 呼叫。 </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Experience Cloud ID 服務 - Cookie 是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
+    <td colname="col1"> <p><b>Experience Cloud ID 服務 - Cookie 是否存在</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
     <td colname="col2"> <p> 找不到 <span class="codeph">AMCV_</span> Cookie。您必須從 <span class="codeph">VisitorAPI.js</span> 程式碼將訪客物件具現化。 </p> </td> 
     <td colname="col3"> <p> 如果這是 DTM 實施，請確認已在 MCID 工具中正確輸入 AdobeOrg ID。 </p> </td> 
    </tr> 
