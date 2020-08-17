@@ -4,8 +4,11 @@ seo-description: 在 Auditor 中建立新的稽核
 seo-title: 在 Auditor 中建立新的稽核
 title: 在 Auditor 中建立新的稽核
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
    名稱的長度最多可為 250 個字元。
 1. (必要) 指定起始 URL。
 
-   指定起始 URL 時需要通訊協定。起始 URL 是稽核開始進行編目的頁面。Auditor 在啟動後，會依循連結從起始 URL 開始對頁面進行編目，最多 500 個頁面。如需詳細資訊，請參閱[包含和排除篩選器](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257)。起始 URL 的長度最多可為 250 個字元。
+   指定起始 URL 時需要通訊協定。起始 URL 是稽核開始進行編目的頁面。Auditor 在啟動後，會依循連結從起始 URL 開始對頁面進行編目，最多 500 個頁面。如需詳細資訊，請參閱[包含和排除篩選器](../create-audit/filters.md)。起始 URL 的長度最多可為 250 個字元。
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    包含篩選器限定為每行最多 1,000 個字元。
 
-   如需詳細資訊，請參閱[包含篩選器](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f)。
+   如需詳細資訊，請參閱[包含篩選器](../create-audit/filters.md)。
 1. 指定排除篩選器。
 
    「排除清單」會防止 URL 進行稽核。您可以使用確切的 URL、部分 URL 或規則運算式，就像在「包含清單」中一樣。
@@ -61,7 +64,7 @@ source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
    排除篩選器限定為每行最多 1,000 個字元。
 
-   如需詳細資訊，請參閱[排除篩選器](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9)。
+   如需詳細資訊，請參閱[排除篩選器](../create-audit/filters.md)。
 1. (選擇性) 如有需要，您可以測試包含和排除篩選器，並測試您的 URL。
 
    請輸入篩選器和 URL，然後按一下&#x200B;**[!UICONTROL 「套用」]**&#x200B;以執行測試。
