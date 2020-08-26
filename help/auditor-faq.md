@@ -1,14 +1,14 @@
 ---
-description: Adobe Experience Platform Auditor的常見問題和解答
-seo-description: Adobe Experience Platform Auditor的常見問題和解答
+description: Adobe Experience Platform Auditor 常見問題與解答
+seo-description: Adobe Experience Platform Auditor 常見問題與解答
 seo-title: Auditor 常見問題集
-title: Adobe Experience Platform Auditor常見問答集
+title: Adobe Experience Platform Auditor 常見問題集
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
