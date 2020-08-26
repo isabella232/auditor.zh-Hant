@@ -1,14 +1,14 @@
 ---
-description: Adobe Auditor測試的相關資訊
-seo-description: Adobe Auditor測試的相關資訊
+description: Adobe Auditor 測試相關資訊
+seo-description: Adobe Auditor 測試相關資訊
 seo-title: 測試規則 0.0.8
 title: 測試規則 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1998'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
