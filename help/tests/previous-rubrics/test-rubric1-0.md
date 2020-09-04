@@ -4,10 +4,10 @@ seo-description: Adobe Auditor 測試相關資訊
 seo-title: 測試規則 0.0.8
 title: 測試規則 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '1983'
 ht-degree: 100%
 
 ---
@@ -58,9 +58,9 @@ ht-degree: 100%
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom 回呼位置</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Dynamic Tag Management 需要 <span class="codeph">_satellite.pageBottom()</span> 函數。 </p> <p>最佳實務是讓該標記成為 <span class="codeph">&lt;body&gt;</span> 中的<i>最後一個</i>標記。若將其置於 <span class="codeph">&lt;body&gt;</span> 標記內，雖然或許能運作，但由於這並非最佳實務，因此其運作可能會不正確，或產生非預期或不適當的結果。 </p> </td> 
     <td colname="col3"> <p>在結尾的 <span class="codeph">&lt;/body&gt;</span> 標記前面加上緊鄰的內嵌指令碼，以確保 DTM 可正常運作。 </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Target - 在 &lt;head&gt; 中載入程式庫</b> </p> <p>權重：4 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/target/using/implement-target/implementing-target.html" format="html" scope="external"> 其他資訊</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Target 程式庫應載入 <span class="codeph">&lt;head&gt;</span> 標記中。 </p> </td> 
     <td colname="col3"> <p> 確認 Target 程式庫已載入 <span class="codeph">&lt;head&gt;</span> 標記中。 </p> </td> 
    </tr> 
