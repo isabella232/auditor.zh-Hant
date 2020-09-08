@@ -4,9 +4,9 @@ seo-description: 此參考提供與 Auditor 針對標記一致性而執行的測
 seo-title: 標記一致性
 title: 標記一致性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
