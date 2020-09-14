@@ -1,15 +1,15 @@
 ---
 cloud: experience-cloud
 product: auditor
-sub-product: 審計師
+sub-product: auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor 說明
 breadcrumb-title: Auditor Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65cda335ae83c5a49cde06f54570bfac0ec88b32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
