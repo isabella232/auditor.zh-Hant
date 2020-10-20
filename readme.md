@@ -1,9 +1,16 @@
 ---
-source-git-commit: cd2b8452627969f42c27d4679a09abf4c7abc993
-translation-type: ht
+source-git-commit: 11340be8ca4288cbe4c6129f44a05677cfd3112e
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 85%
 
 ---
 # 貢獻文章
+
+| EXL-PR | EXL | 預覽 | 啟動 | 已發佈 | 說明 |
+|--- |--- |--- |--- |--- |--- |
+| [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/lastBuild/) | [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/lastBuild) | [預覽URL](https://experienceleague.corp.adobe.com/docs/auditor/using/overview.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [即時URL](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 我們歡迎我們社群及文件團隊以外的 Adobe 員工貢獻心力。
 
@@ -15,11 +22,11 @@ translation-type: ht
 
 請參閱 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
-貢獻方式取決於您的身分和您要貢獻的變更類型:
+貢獻方式取決於您的身分和您要貢獻的變更類型：
 
 ### 微幅變更
 
-若您出於好意想貢獻微幅更新內容，請前往文章，按一下文章中的&#x200B;**「編輯」**&#x200B;連結，隨即會轉至該文章的 GitHub 來源，然後只需使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
+若您出於好意想貢獻微幅更新內容，請前往文章，按一下文章中的&#x200B;**編輯**&#x200B;連結，隨即會轉至該文章的 GitHub 來源，然後只需使用 GitHub UI 進行更新即可。如需詳細資訊，請參閱一般 [Adobe Docs 貢獻者指南](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)。
 
 您為此存放庫文件和程式碼範例提交的微幅更正或釐清，均屬於 Adobe 使用條款規範的範圍。
 
@@ -45,14 +52,14 @@ If you submit a pull request with significant changes to documentation and code 
 
 ## 如何使用 Markdown 設定主題格式
 
-此存放庫中的所有文章皆使用 GitHub 精選的 Markdown 語言撰寫而成。若不熟悉 Markdown，請參閱:
+此存放庫中的所有文章皆使用 GitHub 精選的 Markdown 語言撰寫而成。若不熟悉 Markdown，請參閱：
 
 * [Markdown 基本介紹](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [列印版 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 標籤
 
-在公開存放庫中，系統會為提取請求指派自動化標籤，協助我們管理提取請求工作流程，同時協助您瞭解提取請求的最新狀況:
+在公開存放庫中，系統會為提取請求指派自動化標籤，協助我們管理提取請求工作流程，同時協助您瞭解提取請求的最新狀況：
 
-* **變更已傳送給作者**: 作者已收到處理提取請求的通知。
-* **準備合併**: 一切準備就緒，可供提取請求審核團隊審核。
+* **變更已傳送給作者**：作者已收到處理提取請求的通知。
+* **準備合併**：一切準備就緒，可供提取請求審核團隊審核。
