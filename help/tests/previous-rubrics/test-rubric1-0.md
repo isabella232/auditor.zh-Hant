@@ -1,14 +1,14 @@
 ---
-description: Adobe Auditor 測試相關資訊
-seo-description: Adobe Auditor 測試相關資訊
+description: 有關Adobe Experience Platform Auditor測試的資訊
+seo-description: 有關Adobe Experience Platform Auditor測試的資訊
 seo-title: 測試規則 0.0.8
 title: 測試規則 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2008'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 警報 {#alerts}
 
-此參考提供與 Auditor 針對測試而顯示之警報有關的詳細資訊。
+此參考提供Adobe Experience Platform Auditor針對測試所顯示警報的詳細資訊。
 
 警報會顯示您應留意但不影響分數的問題。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 實施正確的轉換標記</b> </p> <p>權重：0 </p> </td> 
     <td colname="col2"> <p>檢查是否使用正確的轉換標記。 </p> <p> <p>警告：使用過時的 TubeMogul 轉換標記，可能導致資料遺失。 </p> </p> </td> 
-    <td colname="col3"> <p>將您的轉換像素升級為新的 Advertising Cloud 僅限影像轉換標記。 </p> <p>這項工作用 Advertising Cloud Launch Extension 來執行最為容易。 </p> </td> 
+    <td colname="col3"> <p>將您的轉換像素升級為新的 Advertising Cloud 僅限影像轉換標記。 </p> <p>透過適用於Adobe Experience Platform Launch的Advertising Cloud擴充功能，您最容易完成這項工作。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 僅限影像標記</b> </p> <p>權重：0 </p> </td> 
@@ -49,12 +49,12 @@ ht-degree: 100%
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>將您的 Advertising Cloud 像素升級至新的 Advertising Cloud 僅限影像標記，以確保您使用的是完整的 Advertising Cloud 功能。 </p> <p>這項工作用 Advertising Cloud Launch Extension 來執行最為容易。 </p> </td> 
+    <td colname="col3"> <p>將您的 Advertising Cloud 像素升級至新的 Advertising Cloud 僅限影像標記，以確保您使用的是完整的 Advertising Cloud 功能。 </p> <p>透過適用於Platform Launch的Advertising Cloud擴充功能，最輕鬆地完成這項工作。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 啟用區段像素 DSP 同步</b> </p> <p>權重：0 </p> </td> 
     <td colname="col2"> <p>檢查 TubeMogul 區段像素是否包含「DSP 同步」設定，並建議您將該設定新增至像素。 </p> <p>「DSP 同步」設定取決於查詢字串參數的使用，因此 </p> <p>如果對 <span class="codeph">("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 或 <span class="codeph">"http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> 或 <span class="codeph">"http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>引發標記，且該標記包含 URL 參數 <span class="codeph">"sid=")</span>， </p> <p>則應確認 URL 參數 <span class="codeph">"cs=0"</span> 或 <span class="codeph">"cs=1"</span> 是否存在；若不存在，則建議將 <span class="codeph">"cs=1"</span> 新增至這些像素，以提高投放對象準確率。 </p> </td> 
-    <td colname="col3"> <p> 將 URL 參數 <span class="codeph">"cs=1"</span> 新增至 Advertising Cloud 像素，以便進行 DSP 同步，進而提高投放對象準確率。 </p> <p>這項工作用 Advertising Cloud Launch Extension 來執行最為容易。 </p> </td> 
+    <td colname="col3"> <p> 將 URL 參數 <span class="codeph">"cs=1"</span> 新增至 Advertising Cloud 像素，以便進行 DSP 同步，進而提高投放對象準確率。 </p> <p>Advertising Cloud的Launch擴充功能可讓您輕鬆完成這項工作。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom 回呼位置</b> </p> <p>權重：0 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> 其他資訊</a> </p> 
@@ -81,9 +81,9 @@ ht-degree: 100%
 
 ## 設定 {#configuration}
 
-此參考提供與 Auditor 針對設定而執行的測試有關的詳細資訊。
+此參考提供了有關Platform Auditor為配置執行的測試的詳細資訊。
 
-Auditor 會根據其他規則和建議的最佳實務來評估標記。
+Platform Auditor會根據其他規則評估標籤，並建議最佳實務。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -161,9 +161,9 @@ Auditor 會根據其他規則和建議的最佳實務來評估標記。
 
 ## 標記一致性{#tag-consistency}
 
-此參考提供與 Auditor 針對標記一致性而執行的測試有關的詳細資訊。
+此參考提供了有關Platform Auditor為標籤一致性而執行的測試的詳細資訊。
 
-Auditor 會評估各 URL 的標記是否一致。
+Platform Auditor會評估各URL上的標籤是否一致。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ Auditor 會評估各 URL 的標記是否一致。
 
 ## 標記是否存在{#tag-presence}
 
-此參考提供與 Auditor 針對標記是否存在而執行的測試有關的詳細資訊。
+此參考提供了有關Platform Auditor為標籤存在而執行的測試的詳細資訊。
 
-Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正確位置，並執行其他評估。
+Platform Auditor會評估標籤是否存在，以及它是否在您的頁面程式碼中位於正確位置等。
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,12 +202,12 @@ Auditor 會評估標記是否存在，及其是否位於頁面程式碼中的正
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 程式碼是否存在</b> </p> <p>權重：5 </p> </td> 
     <td colname="col2"> <p> Advertising Cloud 標記無法在 DOM 中使用。 </p> </td> 
-    <td colname="col3"> <p>使用 Advertising Cloud Launch Extension 來實施 Advertising Cloud 標記。 </p> </td> 
+    <td colname="col3"> <p>使用Advertising Cloud的Platform Launch擴充功能實作Advertising Cloud標籤。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - 實施區段像素</b> </p> <p>權重：5 </p> </td> 
     <td colname="col2"> <p> 將您的 Advertising Cloud 區段像素升級為新的 Advertising Cloud 僅限影像標記。使用過時的 AMO 區段標記可能會導致資料遺失。 </p> </td> 
-    <td colname="col3"> <p>使用 Advertising Cloud Launch Extension 來實施 Advertising Cloud 區段像素。 </p> </td> 
+    <td colname="col3"> <p>使用Advertising Cloud的Platform Launch擴充功能實作Advertising Cloud細分像素。 </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics - 在 DOM 中載入</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
