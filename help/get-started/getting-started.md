@@ -1,14 +1,14 @@
 ---
-description: 開始使用 Auditor
-seo-description: 開始使用 Auditor
+description: 開始使用Adobe Experience Platform Auditor
+seo-description: 開始使用Adobe Experience Platform Auditor
 seo-title: 快速入門
 title: 快速入門
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-第一次使用 Auditor 時，您必須完成並接受 Auditor 合約。Auditor 是 Adobe 與 ObservePoint 共同開發的工具。Auditor 使用者可使用有限的 ObservePoint 功能，不需額外付費。若要使用 Auditor，您必須選擇加入 ObservePoint 的通訊。
+The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] 已發展為與的合 [!DNL Adobe] 作 [!DNL ObservePoint]. Platform Auditor使用者可使用有限的ObservePoint功能，而不需額外付費。 若要使用Platform Auditor，您必須選擇加入ObservePoint的通訊內容。
 
 ## 執行您的第一次掃描{#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ This page is a placeholder for now, we need things like prerequisites, any plann
 
    ![](assets/activate.png)
 
-1. 選取 Auditor，並接受使用條款。
+1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
 
-   Auditor 頁面會為您提供舊有掃描的控制面板，以及執行新掃描的選項。
+   「平台審計器」頁為您提供了以前掃描的儀表板以及運行新掃描的選項。
 
    ![](assets/home.png)
 
