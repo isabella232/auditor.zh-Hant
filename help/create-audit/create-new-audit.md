@@ -1,14 +1,14 @@
 ---
-description: 在 Auditor 中建立新的稽核
-seo-description: 在 Auditor 中建立新的稽核
-seo-title: 在 Auditor 中建立新的稽核
-title: 在 Auditor 中建立新的稽核
+description: 在Adobe Experience Platform Auditor中建立新的稽核
+seo-description: 在Adobe Experience Platform Auditor中建立新的稽核
+seo-title: 在Adobe Experience Platform Auditor中建立新的稽核
+title: 在Adobe Experience Platform Auditor中建立新的稽核
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    名稱的長度最多可為 250 個字元。
 1. (必要) 指定起始 URL。
 
-   指定起始 URL 時需要通訊協定。起始 URL 是稽核開始進行編目的頁面。Auditor 在啟動後，會依循連結從起始 URL 開始對頁面進行編目，最多 500 個頁面。如需詳細資訊，請參閱[包含和排除篩選器](../create-audit/filters.md)。起始 URL 的長度最多可為 250 個字元。
+   指定起始 URL 時需要通訊協定。起始 URL 是稽核開始進行編目的頁面。開始後，Adobe Experience Platform Auditor會依循從開始URL開始的連結，爬蟲多達500個頁面。 如需詳細資訊，請參閱[包含和排除篩選器](../create-audit/filters.md)。起始 URL 的長度最多可為 250 個字元。
 
    >[!NOTE]
    >
@@ -43,22 +43,23 @@ ht-degree: 100%
    您可用逗點分隔地址，以指定多個電子郵件。依預設會通知請求者。電子郵件地址會進行即時驗證。如果您輸入的地址無效，畫面上會顯示通知。
 
    每個電子郵件的長度限定為 250 個字元，包括網域結尾在內 (例如 .com)。
-1. 指定「包含篩選器」。
 
-   此欄位可包含確切的 URL、部分 URL 或規則運算式。請使用此欄位指定每個 URL 必須符合的標準。任何已編目的 URL 只要不符合「包含篩選器」標準，都不會包含在稽核結果中。
+1. Specify [!UICONTROL Include Filters].
+
+   此欄位可包含確切的 URL、部分 URL 或規則運算式。請使用此欄位指定每個 URL 必須符合的標準。Any crawled URLs that do not match the [!UICONTROL Include Filter] criteria are not included in the audit results.
 
    您可以輸入要讓稽核掃描的目錄。或者，您可以執行跨網域或自我轉介稽核；此時您必須在一個網域上開始進行稽核，並在另一個網域上結束稽核。若要這麼做，請輸入您要周遊的網域；針對複雜的 URL 模式，請使用規則運算式。
 
    >[!NOTE]
    >
-   >如果您將某個頁面包含在篩選器中，但該頁面未連線至起始 URL，或 Auditor 在到達該頁面之前已掃描了 500 個頁面，則該頁面不會進行掃描，也不會包含在測試結果中。
+   >如果您的篩選器中包含頁面，但它未連線至您的起始URL，或Platform Auditor在到達該頁面前掃描了500頁，則不會掃描該頁面，也不會包含在測試結果中。
 
    包含篩選器限定為每行最多 1,000 個字元。
 
    如需詳細資訊，請參閱[包含篩選器](../create-audit/filters.md)。
 1. 指定排除篩選器。
 
-   「排除清單」會防止 URL 進行稽核。您可以使用確切的 URL、部分 URL 或規則運算式，就像在「包含清單」中一樣。
+   The [!UICONTROL Exclude List] prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the [!UICONTROL Include List].
 
    常見做法之一是，如果稽核具有使用者工作階段 (例如 `/logout`，表示任何包含字串 `/logout` 的 URL)，則排除登出連結。
 
