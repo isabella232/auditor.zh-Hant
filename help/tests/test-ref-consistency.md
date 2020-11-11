@@ -1,23 +1,23 @@
 ---
-description: 此參考提供與 Auditor 針對標記一致性而執行的測試有關的詳細資訊。
-seo-description: 此參考提供與 Auditor 針對標記一致性而執行的測試有關的詳細資訊。
+description: 此參考提供Adobe Experience Platform Auditor為標籤一致性所執行測試的詳細資訊。
+seo-description: 此參考提供Adobe Experience Platform Auditor為標籤一致性所執行測試的詳細資訊。
 seo-title: 標記一致性
 title: 標記一致性
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
 
 # 標記一致性
 
-此參考提供與 Auditor 針對標記一致性而執行的測試有關的詳細資訊。
+此參考提供Adobe Experience Platform Auditor為標籤一致性所執行測試的詳細資訊。
 
-Auditor 的一致性測試會在所有掃描的頁面上尋找不一致之處。這些值或設定在網站的所有頁面上均應相同，以確保資料收集的正確性。
+Platform Auditor的一致性測試會在所有掃描的頁面上尋找不一致之處。 這些值或設定在網站的所有頁面上均應相同，以確保資料收集的正確性。
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
