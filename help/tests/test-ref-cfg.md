@@ -1,23 +1,23 @@
 ---
-description: 此參考提供與 Auditor 針對設定而執行的測試有關的詳細資訊。
-seo-description: 此參考提供與 Auditor 針對設定而執行的測試有關的詳細資訊。
+description: 此參考提供Adobe Experience Platform Auditor針對設定所執行之測試的詳細資訊。
+seo-description: 此參考提供Adobe Experience Platform Auditor針對設定所執行之測試的詳細資訊。
 seo-title: 設定
 title: 設定
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '833'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 89%
 
 ---
 
 
 # 設定
 
-此參考提供與 Auditor 針對設定而執行的測試有關的詳細資訊。
+此參考提供Adobe Experience Platform Auditor針對設定所執行之測試的詳細資訊。
 
-設定測試會掃描您實施中的特定設定、值或潛在衝突。Auditor 會根據其他規則和建議的最佳實務來評估標記。
+設定測試會掃描您實施中的特定設定、值或潛在衝突。Platform Auditor會根據其他規則評估標籤，並建議最佳實務。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -97,8 +97,8 @@ ht-degree: 100%
     <!--
       1.0.1 
     --> <p><b>Launch - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p>這些頁面未執行最新版的 Launch 程式碼庫 (Turbine)。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
-   <td colname="col3"> <p> 重建 Launch 程式庫並加以發佈，以更新 Launch 程式庫。 </p> </td> 
+   <td colname="col2"> <p>這些頁面未執行最新版本的Platform Launch程式碼庫(Turbine)。 支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
+   <td colname="col3"> <p> 重建並發佈Platform Launch程式庫，以更新Platform Launch程式庫。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
