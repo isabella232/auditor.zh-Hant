@@ -1,18 +1,21 @@
 ---
-description: 此參考提供與 Auditor 執行的測試有關的詳細資訊。
-seo-description: 此參考提供與 Auditor 執行的測試有關的詳細資訊。
+description: 本參考提供Adobe Experience Platform Auditor所執行測試的詳細資訊。
+seo-description: 本參考提供Adobe Experience Platform Auditor所執行測試的詳細資訊。
 seo-title: 測試參考
 title: 測試參考
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: ht
-source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 84%
 
 ---
 
 
 # 測試參考{#test-reference}
 
-此參考提供與 Auditor 執行的測試有關的詳細資訊。
+本參考提供Adobe Experience Platform Auditor所執行測試的詳細資訊。
 
 **目前的測試規則版本：** 1.0.5
 
@@ -31,7 +34,7 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 **建議**&#x200B;您修正層級 1 到層級 3 的結果。
 
-## Auditor 會對哪些 Adobe 技術評分？{#section-52833b71c05448aaae508e6070a387f5}
+## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
@@ -45,4 +48,4 @@ source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 * Advertising Cloud Creative
 * Audience Manager
 * 促銷活動
-* Launch
+* Adobe Experience Platform Launch
