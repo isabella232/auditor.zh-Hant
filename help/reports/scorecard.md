@@ -4,11 +4,11 @@ seo-description: 執行測試後，記分卡會顯示稽核的相關資訊。
 seo-title: 記分卡
 title: 記分卡
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 執行測試後，記分卡會顯示稽核的相關資訊。
 
-在「Adobe Experience Platform Auditor」(Adobe Experience Platform Auditor)頁面上，按一下您的稽核名稱，以檢視測試結果。
+在 Adobe Experience Platform Auditor 頁面上按一下稽核作業的名稱，即可檢視測試結果。
 
 ![](assets/report.png)
 
@@ -42,7 +42,7 @@ ht-degree: 91%
 * 0：對您應留意、但不影響分數的問題提出警報。
 * 1：建議最佳化。不影響資料正確性。
 * 2：若未通過此測試，表示您將無法存取 Adobe Experience Cloud 中的最新功能和修正。
-* 3：測試效率，以及實施是否遵循高度建議的最佳實務準則。
+* 3：測試效率，以及實作是否遵循高度建議的最佳實務準則。
 * 4：若未通過，表示您所收集的資料可能不可靠。
 * 5：若未通過，表示可能會發生資料遺失。
 
@@ -50,7 +50,7 @@ ht-degree: 91%
 
 記分卡會將任何 1 到 3 級的問題列為&#x200B;**建議**&#x200B;您修正的問題。
 
-按一下&#x200B;**[!UICONTROL 「下載報表」]**&#x200B;即可下載內含稽核回報資訊的 或 PDF 檔案。[!DNL Excel]
+按&#x200B;**[!UICONTROL 「下載報表」]**&#x200B;即可下載內含稽核回報資訊的 [!DNL Excel] 或 PDF 檔案。
 
 除了每個類別的分數以外，記分卡也會列出任何建議或強烈建議的修正，以及通過測試的項目。按一下個別問題，即可在右側的方塊中查看其他詳細資料。再按一下可進一步深入檢視，並查看修正問題的建議。以下顯示上述記分卡中「建議」問題的詳細資料：
 
@@ -62,4 +62,4 @@ ht-degree: 91%
 
 您可以檢視通過或未通過測試的 URL 清單。
 
-From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. 這會將您導向至測試的詳細資料。對於各項測試，您可以查看測試說明，以及通過或未通過測試的完整 URL 清單。這項資訊也包含在下載的報表中。
+在記分卡中按一下測試名稱，或按一下各個類別標題下的&#x200B;**[!UICONTROL 「查看全部」]**&#x200B;連結。這會將您導向至測試的詳細資料。對於各項測試，您可以查看測試說明，以及通過或未通過測試的完整 URL 清單。這項資訊也包含在下載的報表中。
