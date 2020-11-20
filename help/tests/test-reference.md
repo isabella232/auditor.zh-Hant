@@ -1,21 +1,21 @@
 ---
-description: 本參考提供Adobe Experience Platform Auditor所執行測試的詳細資訊。
-seo-description: 本參考提供Adobe Experience Platform Auditor所執行測試的詳細資訊。
+description: 此參考文件主要探討 Adobe Experience Platform Auditor 所執行的各項測試，為使用者提供詳細資訊。
+seo-description: 此參考文件主要探討 Adobe Experience Platform Auditor 所執行的各項測試，為使用者提供詳細資訊。
 seo-title: 測試參考
 title: 測試參考
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # 測試參考{#test-reference}
 
-本參考提供Adobe Experience Platform Auditor所執行測試的詳細資訊。
+此參考文件主要探討 Adobe Experience Platform Auditor 所執行的各項測試，為使用者提供詳細資訊。
 
 **目前的測試規則版本：** 1.0.5
 
@@ -24,7 +24,7 @@ ht-degree: 84%
 * 0：對您應留意、但不影響分數的問題提出警報。
 * 1：建議最佳化。不影響資料正確性。
 * 2：若未通過此測試，表示您將無法存取 Experience Cloud 中的最新功能和修正。
-* 3：測試效率，以及實施是否遵循最佳實務準則。
+* 3：測試效率，以及實作是否遵循最佳實務準則。
 * 4：若未通過，表示您所收集的資料可能不可靠。
 * 5：若未通過，表示可能會發生資料遺失。
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 
 **建議**&#x200B;您修正層級 1 到層級 3 的結果。
 
-## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
+## Platform Auditor 會對哪些 Adobe 技術評分？{#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
 * Advertising Cloud Search
@@ -47,5 +47,5 @@ ht-degree: 84%
 
 * Advertising Cloud Creative
 * Audience Manager
-* 促銷活動
+* Campaign
 * Adobe Experience Platform Launch
