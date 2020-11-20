@@ -1,17 +1,17 @@
 ---
 cloud: experience-cloud
 product: adobe experience platform auditor
-sub-product: adobe experience platform auditor
+sub-product: Adobe Experience Platform Auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor 說明
-user-guide-description: 產生報告，對您的 Adobe Experience Cloud 實作進行評分並提供如何改進的指標。
-breadcrumb-title: 平台審計員指南
+user-guide-description: 產生報告，對您的 Adobe Experience Cloud 實作評分，並提供改善實作的各項指示。
+breadcrumb-title: Platform Auditor 指南
 breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 82%
    + 先前的測試規則{#previous-rubrics}
       + [測試規則 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
       + [測試規則 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
-+ [Platform Auditor常見問答集](auditor-faq.md)
-+ [Platform Auditor發行說明](release-notes.md)
++ [Platform Auditor 常見問題集](auditor-faq.md)
++ [Platform Auditor 發行說明](release-notes.md)
