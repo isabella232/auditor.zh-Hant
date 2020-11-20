@@ -4,11 +4,11 @@ seo-description: 包含篩選器會限制稽核可從起始 URL 開始進行編�
 seo-title: 包含和排除篩選器
 title: 包含和排除篩選器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Content from ObservePoint (https://help.observepoint.com/articles/2872121-includ
 
 藉由套用包含篩選器、排除篩選器或兩者的組合，可針對稽核可編目的連結提供相關指示。
 
-Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
+若[!UICONTROL 「包含篩選器」]欄位中有任何項目，系統將只會掃描符合該項目的頁面。若[!UICONTROL 「排除篩選器」]欄位中有任何項目，則系統不會掃描符合該項目的任何頁面。
 
 包含和排除篩選器可以是完整 URL、部分 URL 或符合有效頁面的規則運算式。
 
@@ -53,7 +53,7 @@ Any item in the [!UICONTROL Include Filters] field restricts the scan to only th
 
 ## 起始 URL{#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Adobe Experience Platform Auditor需要單一頁面才能存取「開始URL」。 起始 URL 一律會比其他 URL 先被瀏覽。從起始頁面探索到的任何連結都符合瀏覽的條件，但須受到包含和排除篩選器的限制。如果排除項目符合起始 URL，該 URL 會被忽略。
+使用 Adobe Experience Platform Auditor 時，起始 URL 必須為單一頁面。起始 URL 一律會比其他 URL 先被瀏覽。從起始頁面探索到的任何連結都符合瀏覽的條件，但須受到包含和排除篩選器的限制。如果排除項目符合起始 URL，該 URL 會被忽略。
 
 ## 包含篩選器{#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Adobe Experience Platform Auditor需要單一頁面才能存取「開始URL」�
 
 這會使任何位於起始 URL 頁面上的連結都符合瀏覽條件。它會符合起始 URL 中任何子網域上的任何頁面。
 
-使用預設的包含篩選器，可讓稽核有較廣泛的編目範圍。若要著重在特定區段或頁面上，請在此方塊中新增篩選器，以對稽核提供特定指示。在此情況下，請將預設值取代為您要讓稽核掃描的目錄。您也可以使用「包含」篩選器來執行跨網域稽核，您需要在一個網域上開始稽核，並在另一個網域上結束稽核。 若要這麼做，請輸入您要周遊的網域。無論如何，若要找到任何「包含」篩選URL，必須在已稽核的頁面上進行搜尋。
+使用預設的包含篩選器，可讓稽核有較廣泛的編目範圍。若要著重在特定區段或頁面上，請在此方塊中新增篩選器，以對稽核提供特定指示。在此情況下，請將預設值取代為您要讓稽核掃描的目錄。您也可以使用「包含篩選器」來執行跨網域稽核，此時您開始稽核時所處的網域，必需與結束稽核時不同。若要這麼做，請輸入您要周遊的網域。無論如何，若要找到任何「包含篩選器」URL，必須在稽核的頁面上加以探索。
 
-「包含」篩選器可包含精確的URL、部分URL或規則運算式。 例如，如果 [!DNL http://mysite.com] 是起始 URL，則下列頁面依預設將符合掃描的條件 (請注意粗體字元)：
+「包含篩選器」可包含確切的 URL、部分 URL 或規則運算式。例如，如果 [!DNL http://mysite.com] 是起始 URL，則下列頁面依預設將符合掃描的條件 (請注意粗體字元)：
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ http://
 
 ## 測試篩選器和 URL{#section-3cfa125b1756411395a64701e128efa0}
 
-您可以在Platform Auditor中測試您的篩選器和URL。
+您可以在 Platform Auditor 中測試篩選器和 URL。
 
 在建立稽核時，按一下&#x200B;**[!UICONTROL 「測試進階篩選器」]**。輸入您的篩選器和 URL，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
 
@@ -108,4 +108,4 @@ http://
 
 ## ObservePoint 文件{#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-本文是與 ObservePoint 共同撰寫的。如需最新資訊，請參閱 [ObservePoint 文件](https://help.observepoint.com/)。
+本文是與 ObservePoint 共同撰寫。如需最新資訊，請參閱 [ObservePoint 文件](https://help.observepoint.com/)。
