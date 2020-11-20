@@ -1,23 +1,23 @@
 ---
-description: 此參考提供Adobe Experience Platform Auditor針對設定所執行之測試的詳細資訊。
-seo-description: 此參考提供Adobe Experience Platform Auditor針對設定所執行之測試的詳細資訊。
+description: 此參考文件主要探討 Adobe Experience Platform Auditor 針對設定所執行的各項測試，為使用者提供詳細資訊。
+seo-description: 此參考文件主要探討 Adobe Experience Platform Auditor 針對設定所執行的各項測試，為使用者提供詳細資訊。
 seo-title: 設定
 title: 設定
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '846'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # 設定
 
-此參考提供Adobe Experience Platform Auditor針對設定所執行之測試的詳細資訊。
+此參考文件主要探討 Adobe Experience Platform Auditor 針對設定所執行的各項測試，為使用者提供詳細資訊。
 
-設定測試會掃描您實施中的特定設定、值或潛在衝突。Platform Auditor會根據其他規則評估標籤，並建議最佳實務。
+設定測試會掃描您實作中的特定設定和值，找出潛在衝突。Platform Auditor 會根據其他規則和建議的最佳實務來評估標記。
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -33,7 +33,7 @@ ht-degree: 89%
     <!--
       1.0.1 
     --> <p><b>Advertising Cloud - 轉換名稱僅使用英數字元</b> </p> <p>權重：3 </p> </td> 
-   <td colname="col2"> <p><span class="codeph">ev_conversion_property_name</span> 參數應僅包含數值和小數值，但 "<span class="codeph">ev_transid</span>" 參數除外 (<span class="codeph">ev_transid</span> 值可包含文字值或數值) </p> <p>尋找包含 URL 參數 (以 <span class="codeph">ev_</span> 開頭) 的 <span class="codeph">everesttech.net</span> 像素。 </p> <p>範例: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">ev_conversion_property_name</span> 參數應僅包含數值和小數值，但 "<span class="codeph">ev_transid</span>" 參數除外 (<span class="codeph">ev_transid</span> 值可包含文字值或數值) </p> <p>尋找包含 URL 參數 (以 <span class="codeph">ev_</span> 開頭) 的 <span class="codeph">everesttech.net</span> 像素。 </p> <p>範例： </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
    <td colname="col3"> <p> 確定您的交易屬性參數只包含數值和小數值。 </p> <p> <p>警告：任何其他值類型都可能導致資料遺失。 </p> </p> </td> 
   </tr> 
   <tr> 
@@ -41,15 +41,15 @@ ht-degree: 89%
     <!--
       1.0.1 
     --> <p><b>Advertising Cloud - 轉換名稱使用 URL 可用的字元</b> </p> <p>權重：3 </p> </td> 
-   <td colname="col2"> <p> 轉換屬性名稱不應包含 &amp; 符號或問號。 </p> <p> 範例: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
+   <td colname="col2"> <p> 轉換屬性名稱不應包含 &amp; 符號或問號。 </p> <p> 範例： </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>確定交易屬性參數未包含非編碼的 &amp; 符號或問號。這些符號會中斷 URL 格式。 </p> <p> <p>警告：包含非編碼 &amp; 符號或問號的屬性參數 (例如：<span class="codeph">ev_formComplete?=1</span> 或 <span class="codeph">ev_formComplete&amp;Submit=1</span>) 可能會導致資料遺失。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Advertising Cloud - 正確實施交易 ID</b> </p> <p>權重：1 </p> </td> 
-   <td colname="col2"> <p> 屬性名稱 <span class="codeph">ev_transid=</span> 不應空白。 </p> <p>範例: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+    --> <p><b>Advertising Cloud - 正確實作交易 ID</b> </p> <p>權重：1 </p> </td> 
+   <td colname="col2"> <p> 屬性名稱 <span class="codeph">ev_transid=</span> 不應空白。 </p> <p>範例： </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>屬性名稱 <span class="codeph">ev_transid=</span> 不應保留為空白 (<span class="codeph">ev_transid=</span>)。若將其保留為空白，交易資料可能會遺失。將值指派給 <span class="codeph">ev_transid=</span>，或從像素中移除參數。 </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ ht-degree: 89%
       1.0.1 
     --> <p><b>Analytics - 在 DOM 中具現化</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> Adobe Analytics 程式碼未安裝或無法執行。在網頁上找不到 Analytics 程式碼時，會傳回 0。 </p> </td> 
-   <td colname="col3"> <p>確認已在頁面上實施 Analytics 標記，且後續指令碼活動不會加以封鎖。 </p> </td> 
+   <td colname="col3"> <p>確認已在頁面上實作 Analytics 標記，且後續指令碼活動不會加以封鎖。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -73,7 +73,7 @@ ht-degree: 89%
     <!--
       1.0.1 
     --> <p><b>Analytics - 最新版本</b> </p> <p>權重：3 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 您的頁面未執行最新版 Analytics 程式碼庫。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。在網頁上找不到 Analytics 程式碼時，會傳回 0。 </p> </td> 
+   <td colname="col2"> <p> 您的頁面未執行最新版 Analytics 程式碼庫。支援 Experience Cloud 技術的程式碼庫會持續更新及調整，以強化效能並提供最新功能。在網頁上找不到 Analytics 程式碼時，會傳回 0。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的 Analytics 程式庫。 </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ ht-degree: 89%
     <!--
       1.0.1 
     --> <p><b>Experience Cloud ID 服務 - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/macid.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 您的頁面未執行最新版的訪客 ID 服務程式碼庫 <span class="codeph">visitorAPI.js</span>。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
+   <td colname="col2"> <p> 您的頁面未執行最新版的訪客 ID 服務程式碼庫 <span class="codeph">visitorAPI.js</span>。支援 Experience Cloud 技術的程式碼庫會持續更新及調整，以強化效能並提供最新功能。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的訪客 ID 服務程式庫。 </p> </td> 
   </tr> 
   <tr> 
@@ -97,15 +97,15 @@ ht-degree: 89%
     <!--
       1.0.1 
     --> <p><b>Launch - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p>這些頁面未執行最新版本的Platform Launch程式碼庫(Turbine)。 支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
-   <td colname="col3"> <p> 重建並發佈Platform Launch程式庫，以更新Platform Launch程式庫。 </p> </td> 
+   <td colname="col2"> <p>這些頁面未執行最新版的 Platform Launch 程式碼庫 (Turbine)。支援 Experience Cloud 技術的程式碼庫會持續更新及調整，以強化效能並提供最新功能。 </p> </td> 
+   <td colname="col3"> <p> 重建 Platform Launch 程式庫並加以發佈，以更新 Platform Launch 程式庫。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Target - 最新版本</b> </p> <p>權重：2 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
-   <td colname="col2"> <p> 您的頁面未執行最新版 Target 程式碼庫。支援 Experience Cloud 技術的程式碼庫會持續更新並調整，以保有強化的效能並提供最新功能。 </p> </td> 
+   <td colname="col2"> <p> 您的頁面未執行最新版 Target 程式碼庫。支援 Experience Cloud 技術的程式碼庫會持續更新及調整，以強化效能並提供最新功能。 </p> </td> 
    <td colname="col3"> <p>安裝最新版的 Target 程式庫。 </p> </td> 
   </tr> 
   <tr> 
