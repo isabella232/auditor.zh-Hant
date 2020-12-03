@@ -4,9 +4,9 @@ seo-description: 此參考文件主要探討 Adobe Experience Platform Auditor �
 seo-title: 標記是否存在
 title: 標記是否存在
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
 
