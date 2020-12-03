@@ -4,9 +4,9 @@ seo-description: Adobe Experience Platform Auditor 測試相關資訊
 seo-title: 測試規則 1.0.1
 title: 測試規則 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2727'
 ht-degree: 100%
 
@@ -395,7 +395,7 @@ Platform Auditor 會評估標記是否存在，並判斷標記是否位於頁面
       1.0.1 
     --> <p><b>Launch - pageBottom 回呼存在於 &lt;body&gt; 中</b> </p> <p>權重：5 </p> <p><a href="https://docs.adobe.com/content/help/zh-Hant/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> 其他資訊</a> </p> </td> 
    <td colname="col2"> <p> 在頁面的 <span class="codeph">&lt;body&gt;</span> 內找不到 Platform Launch 所需的 <span class="codeph">_satellite.pageBottom()</span> 回呼。 </p> <p>如果在頁面上完全找不到 <span class="codeph">pageBottom</span> 呼叫，或該呼叫位於 <span class="codeph">&lt;head&gt;</span> 標記中 (或其他非預期的位置)，則此測試不會通過。只有在 <span class="codeph">pageBottom</span> 位於 <span class="codeph">&lt;body&gt;</span> 標記內的某處時，測試才會通過。如果完全不在頁面上，則無法運作，且其他兩個 <span class="codeph">pageBottom</span> 測試也不會通過。 </p> </td> 
-   <td colname="col3"> <p>請在結尾的 <span class="codeph">&lt;/body&gt;</span> 標記前加上緊鄰的內嵌指令碼，以確保 Platform Launch 可正常運作。 </p> </td> 
+   <td colname="col3"> <p>請在結尾的 <span class="codeph">&lt;/body&gt;</span> 標記前面加上緊鄰的內嵌指令碼，以確保 Platform Launch 可正常運作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
