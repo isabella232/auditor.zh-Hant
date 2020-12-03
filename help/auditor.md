@@ -4,9 +4,9 @@ seo-description: Adobe Experience Platform Auditor 是 Adobe Experience Platform
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Platform Auditor 是 Adobe 與 ObservePoint 共同開發的工具。Platform Aud
 
 ## Platform Auditor 社群論壇{#section-59846f1856bc40aba23d02fdd9198e25}
 
-若您在開始使用時需要協助、有所疑問，或想就日後的增強功能提出建議或投票，請造訪 [Platform Auditor 社群論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)，與專家和 Adobe 互動交流。
+若您在開始使用時需要協助、有所疑問，或想就日後的增強功能提出建議或投票，請前往 [Platform Auditor 社群論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)，與專家和 Adobe 互動交流。
 
 ## 發行資訊{#section-be3e331a123d40f185aa59f23f69355e}
 
