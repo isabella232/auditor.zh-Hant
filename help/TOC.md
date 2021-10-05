@@ -1,24 +1,22 @@
 ---
 cloud: Experience Cloud
 product: auditor
-sub-product: Adobe Experience Platform Auditor
+sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor 說明
 user-guide-description: 產生報告，對您的 Adobe Experience Cloud 實作評分，並提供改善實作的各項指示。
 breadcrumb-title: Platform Auditor 指南
-breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: ht
-source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
-workflow-type: ht
-source-wordcount: '78'
+source-git-commit: 482974cda68b97d2ab7bc9420837ec38a65e45c0
+workflow-type: tm+mt
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
 
 
-# Experience Platform Auditor 說明{#using}
+# Experience Platform Auditor 說明 {#using}
 
-+ [概述](overview.md)
++ [總覽](overview.md)
 + 快速入門 {#get-started}
    + [快速入門](get-started/getting-started.md)
    + [稽核清單頁面](get-started/audit-list.md)
