@@ -7,7 +7,7 @@ user-guide-title: Experience Platform Auditor 說明
 user-guide-description: 產生報告，對您的 Adobe Experience Cloud 實作評分，並提供改善實作的各項指示。
 breadcrumb-title: Platform Auditor 指南
 source-git-commit: 482974cda68b97d2ab7bc9420837ec38a65e45c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
 ht-degree: 100%
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 + 快速入門 {#get-started}
    + [快速入門](get-started/getting-started.md)
    + [稽核清單頁面](get-started/audit-list.md)
-+ 建立稽核{#create-audit}
++ 建立稽核 {#create-audit}
    + [建立新的稽核](create-audit/create-new-audit.md)
    + [包含和排除篩選器](create-audit/filters.md)
 + 報表 {#reports}
-   + [記分卡](reports/scorecard.md)
+   + [計分卡](reports/scorecard.md)
    + [下載報表](reports/download-report.md)
 + 測試{#tests}
    + [測試參考](tests/test-reference.md)
