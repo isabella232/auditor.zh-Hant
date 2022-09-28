@@ -3,8 +3,8 @@ title: Adobe Experience Platform Auditor 概觀
 description: 本文件說明 Adobe Experience Platform Auditor 及其後續版本。
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
 source-git-commit: 3dfe542bb4c1046efdf33243dc1ce922a2629e61
-workflow-type: tm+mt
-source-wordcount: '101'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
