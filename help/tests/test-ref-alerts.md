@@ -1,17 +1,16 @@
 ---
 description: 此參考文件主要探討 Adobe Experience Platform Auditor 針對測試所顯示的各種警報，為使用者提供詳細資訊。
-seo-description: 此參考文件主要探討 Adobe Experience Platform Auditor 針對測試所顯示的各種警報，為使用者提供詳細資訊。
-seo-title: 警報
+seo-description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
+seo-title: Alerts
 title: 警報
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '920'
 ht-degree: 100%
 
 ---
-
 
 # 警報{#alerts}
 
@@ -129,4 +128,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-

@@ -1,13 +1,12 @@
 ---
 description: Adobe Experience Platform Auditor 是 Adobe Experience Platform 的一項服務，由 Adobe 與驗證數位實作的專家 ObservePoint 共同開發而成。
-seo-description: Adobe Experience Platform Auditor 是 Adobe Experience Platform 的一項服務，由 Adobe 與驗證數位實作的專家 ObservePoint 共同開發而成。
+seo-description: Adobe Experience Platform Auditor is a service of the Adobe Experience Platform that was co-developed with ObservePoint, experts in validating digital implementations.
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -35,10 +34,10 @@ Platform Auditor 可協助您對自己的實作項目執行疑難排解和修正
 
 Platform Auditor 是 Adobe 與 ObservePoint 共同開發的工具。Platform Auditor 使用者可使用有限的 ObservePoint 功能，不需額外付費。若要使用 Platform Auditor，您必須選擇接收 ObservePoint 的通訊內容。
 
-## Platform Auditor 社群論壇{#section-59846f1856bc40aba23d02fdd9198e25}
+## Platform Auditor 社群論壇 {#section-59846f1856bc40aba23d02fdd9198e25}
 
 若您在開始使用時需要協助、有所疑問，或想就日後的增強功能提出建議或投票，請前往 [Platform Auditor 社群論壇](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor)，與專家和 Adobe 互動交流。
 
-## 發行資訊{#section-be3e331a123d40f185aa59f23f69355e}
+## 發行資訊 {#section-be3e331a123d40f185aa59f23f69355e}
 
 如需最新版本的相關資訊，請參閱 [Platform Auditor 發行說明](release-notes.md)。

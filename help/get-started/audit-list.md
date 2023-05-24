@@ -1,17 +1,16 @@
 ---
 description: 「稽核清單」頁面會顯示所有稽核的相關資訊。
-seo-description: 「稽核清單」頁面會顯示所有稽核的相關資訊。
-seo-title: 稽核清單頁面
+seo-description: The Audit List page shows information about all of your audits.
+seo-title: Audit List page
 title: 稽核清單頁面
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # 稽核清單頁面{#audit-list-page}
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 啟動 Adobe Experience Platform Auditor 時，畫面會出現「稽核清單」頁面。您可以用清單或卡片視圖的形式來檢視「稽核清單」頁面。
 
-## 清單視圖{#section-a428749d2ab94a08bf460e6a486b844a}
+## 清單視圖 {#section-a428749d2ab94a08bf460e6a486b844a}
 
 清單視圖會針對您的每個稽核顯示下列資訊。
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 按一下稽核的名稱即可查看稽核結果。
 
-## 卡片視圖{#section-6826b585e53a46daa722b9bd3eda926e}
+## 卡片視圖 {#section-6826b585e53a46daa722b9bd3eda926e}
 
 卡片視圖會以圖形格式顯示每個稽核。
 

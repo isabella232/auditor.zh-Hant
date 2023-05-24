@@ -1,17 +1,16 @@
 ---
 description: Adobe Experience Platform Auditor 測試相關資訊
-seo-description: Adobe Experience Platform Auditor 測試相關資訊
-seo-title: 測試規則 1.0.1
+seo-description: information about the Adobe Experience Platform Auditor tests
+seo-title: Test rubric 1.0.1
 title: 測試規則 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2717'
 ht-degree: 100%
 
 ---
-
 
 # 測試規則 1.0.1{#test-rubric}
 
@@ -248,7 +247,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 標記一致性{#tag-consistency}
+## 標記一致性 {#tag-consistency}
 
 此參考文件主要探討 Platform Auditor 為維持標記一致所執行的各項測試，為使用者提供詳細資訊。
 
@@ -274,7 +273,7 @@ Platform Auditor 的一致性測試會在所有掃描的頁面上尋找不一致
  </tbody> 
 </table>
 
-## 標記是否存在{#tag-presence}
+## 標記是否存在 {#tag-presence}
 
 此參考文件主要探討 Platform Auditor 為確認標記是否存在所執行的各項測試，為使用者提供詳細資訊。
 
@@ -426,4 +425,3 @@ Platform Auditor 會評估標記是否存在，並判斷標記是否位於頁面
   </tr> 
  </tbody> 
 </table>
-

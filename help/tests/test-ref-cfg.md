@@ -1,17 +1,16 @@
 ---
 description: 此參考文件主要探討 Adobe Experience Platform Auditor 針對設定所執行的各項測試，為使用者提供詳細資訊。
-seo-description: 此參考文件主要探討 Adobe Experience Platform Auditor 針對設定所執行的各項測試，為使用者提供詳細資訊。
-seo-title: 設定
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
+seo-title: Configuration
 title: 設定
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '830'
 ht-degree: 100%
 
 ---
-
 
 # 設定
 
@@ -126,4 +125,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-

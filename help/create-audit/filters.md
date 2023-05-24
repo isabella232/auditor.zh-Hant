@@ -1,17 +1,16 @@
 ---
 description: 包含篩選器會限制稽核可從起始 URL 開始進行編目的連結。排除篩選器會防止稽核對連結進行編目。
-seo-description: 包含篩選器會限制稽核可從起始 URL 開始進行編目的連結。排除篩選器會防止稽核對連結進行編目。
-seo-title: 包含和排除篩選器
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: 包含和排除篩選器
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
-
 
 # 包含和排除篩選器{#include-and-exclude-filters}
 
@@ -31,7 +30,7 @@ Content from ObservePoint (https://help.observepoint.com/articles/2872121-includ
 
 包含和排除篩選器可以是完整 URL、部分 URL 或符合有效頁面的規則運算式。
 
-## 優先順序{#section-e9d42419dd3f459bb20e7a33c6104f12}
+## 優先順序 {#section-e9d42419dd3f459bb20e7a33c6104f12}
 
 1. **起始 URL** 優先於其他所有項目，且在稽核期間一律會被瀏覽，即使 URL 符合排除篩選器中的項目亦然。起始 URL 一律會比其他 URL 先被瀏覽。
 
@@ -51,11 +50,11 @@ Content from ObservePoint (https://help.observepoint.com/articles/2872121-includ
 
    在上圖中，新增排除篩選器，會使 URL 排除在符合條件的連結外。此時，只有三個連結符合由稽核掃描的條件。
 
-## 起始 URL{#section-ccb46abcd96f4a8ab171245015d2b724}
+## 起始 URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
 使用 Adobe Experience Platform Auditor 時，起始 URL 必須為單一頁面。起始 URL 一律會比其他 URL 先被瀏覽。從起始頁面探索到的任何連結都符合瀏覽的條件，但須受到包含和排除篩選器的限制。如果排除項目符合起始 URL，該 URL 會被忽略。
 
-## 包含篩選器{#section-7626060a56a24b658f8c05f031ac3f5f}
+## 包含篩選器 {#section-7626060a56a24b658f8c05f031ac3f5f}
 
 包含篩選器會限制在稽核期間符合掃描條件的連結。包含篩選器可以是：
 
@@ -94,11 +93,11 @@ http://
 
 對於複雜的 URL 模式，請使用 [ObservePoint 的規則運算式測試器](https://regex.observepoint.com/)。
 
-## 排除篩選器{#section-00aa5e10c878473b91ba0844bebe7ca9}
+## 排除篩選器 {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
 排除篩選器會防止 URL 進行稽核。您可以使用確切的 URL、部分 URL 或規則運算式。任何 URL 只要符合排除篩選器中的項目，即不會被瀏覽。如果您的起始 URL 包含在排除篩選器中，該 URL 並不會排除。稽核一律會掃描起始 URL。
 
-## 測試篩選器和 URL{#section-3cfa125b1756411395a64701e128efa0}
+## 測試篩選器和 URL {#section-3cfa125b1756411395a64701e128efa0}
 
 您可以在 Platform Auditor 中測試篩選器和 URL。
 
@@ -106,6 +105,6 @@ http://
 
 ![](assets/test-advanced-filters.png)
 
-## ObservePoint 文件{#section-79cdc8e850d047969b6d2badf6bbd6f9}
+## ObservePoint 文件 {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
 本文是與 ObservePoint 共同撰寫。如需最新資訊，請參閱 [ObservePoint 文件](https://help.observepoint.com/)。

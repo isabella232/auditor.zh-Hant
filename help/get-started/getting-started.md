@@ -1,17 +1,16 @@
 ---
 description: 開始使用 Adobe Experience Platform Auditor
-seo-description: 開始使用 Adobe Experience Platform Auditor
-seo-title: 快速入門
+seo-description: Get started with Adobe Experience Platform Auditor
+seo-title: Getting started
 title: 快速入門
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: 597413c9-8725-4745-bd89-cdc52848b0a0
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
-
 
 # 快速入門{#getting-started}
 
@@ -23,7 +22,7 @@ This page is a placeholder for now, we need things like prerequisites, any plann
 
 第一次使用 [!DNL Adobe Experience Platform Auditor] 時，您必須先完成並接受 [!DNL Platform Auditor] 合約。[!DNL Platform Auditor] 是 [!DNL Adobe] 與 [!DNL ObservePoint] 共同開發的工具。Platform Auditor 使用者可使用有限的 ObservePoint 功能，不需額外付費。若要使用 Platform Auditor，您必須選擇接收 ObservePoint 的通訊內容。
 
-## 執行您的第一次掃描{#task-b211597afed343cfa238443fcf7c6041}
+## 執行您的第一次掃描 {#task-b211597afed343cfa238443fcf7c6041}
 
 1. 按一下 Adobe Experience Cloud 導覽列右上角的功能表按鈕，然後按一下&#x200B;**[!UICONTROL 「啟用」]**。
 

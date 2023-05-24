@@ -1,17 +1,16 @@
 ---
 description: 執行測試後，記分卡會顯示稽核的相關資訊。
-seo-description: 執行測試後，記分卡會顯示稽核的相關資訊。
-seo-title: 記分卡
+seo-description: After you run a test, the scorecard shows information about an audit.
+seo-title: Scorecard
 title: 記分卡
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # 記分卡{#scorecard}
 
@@ -58,7 +57,7 @@ ht-degree: 100%
 
 按一下畫面頂端的類別，查看在每個類別中發現的問題。
 
-## 哪些頁面是測試的一部分？{#section-fd38ffeb868648e89c34c5772fa65f46}
+## 哪些頁面是測試的一部分？ {#section-fd38ffeb868648e89c34c5772fa65f46}
 
 您可以檢視通過或未通過測試的 URL 清單。
 
